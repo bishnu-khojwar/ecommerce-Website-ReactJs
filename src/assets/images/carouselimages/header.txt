@@ -1,0 +1,36 @@
+import React from 'react'
+import { Navbar, Nav, Container } from 'react-bootstrap'
+import "./header.css"
+import { BsCart, BsFillPersonFill } from "react-icons/bs";
+
+
+const Header = () => {
+    return (
+        <>
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Container id='headerwidth'>
+                    <Navbar.Brand href="#home">Ecommerce</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="me-auto">
+                            <Nav.Link href="/home">Home</Nav.Link>
+                            <Nav.Link href="/products">Products</Nav.Link>
+                            <Nav.Link href="/features">Features</Nav.Link>
+                            <Nav.Link href="/pricing">Pricing</Nav.Link>
+                            <Nav.Link href="/register">Register</Nav.Link>
+                        </Nav>
+                        <Nav>
+                            <Nav.Link href="/carts"><BsCart class = "cart-icon" id='header-icon'></BsCart>Cart</Nav.Link>
+                            <Nav.Link href="/loginpage"><BsFillPersonFill class = "login-icon" id= 'header-icon'></BsFillPersonFill>Login</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+
+                </Container>
+
+            </Navbar>
+
+        </>
+    )
+}
+
+export default Header

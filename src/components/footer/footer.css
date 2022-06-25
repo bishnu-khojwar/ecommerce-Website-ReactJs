@@ -1,0 +1,14 @@
+.footer {
+    height: 300px;
+    width: auto;
+    background-color: black;
+    color: white;
+    padding: 10rem;
+}
+
+.footer-content {
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

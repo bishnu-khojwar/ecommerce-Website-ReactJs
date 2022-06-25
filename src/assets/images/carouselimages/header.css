@@ -1,0 +1,19 @@
+#headerwidth {
+    max-width: 100%;
+}
+
+#responsive-navbar-nav {
+      font-size: 18px;
+      z-index: 1;
+}
+
+#header-icon{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        height: 4.1rem;
+    }
+}

@@ -1,0 +1,41 @@
+/* #headerwidth1 {
+    height: 5.1rem;
+}
+#headerwidth {
+    max-width: 100%;
+}
+
+.btn {
+    
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 2px;
+  }
+
+  #responsive-navbar-nav {
+      font-size: 18px;
+      z-index: 2;
+  } */
+  #headerwidth {
+    max-width: 100%;
+}
+
+#responsive-navbar-nav {
+      font-size: 18px;
+      z-index: 1;
+}
+
+#header-icon{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        height: 4.1rem;
+    }
+}
